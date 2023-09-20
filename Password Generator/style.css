@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background: #EFD9CE;
+    color: #9E829C;
+}
+
+.container {
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.display {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.display input {
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    border: 0;
+    outline: none;
+    background: black;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+
+}
+
+#passwordButton {
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+
+#passwordButton:hover {
+    color:#291528;
+    background:#61568e;
+}
+
+
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.container h1 span {
+    color:#291528;
+    border-bottom: 4px solid #9E829C;
+    padding-bottom: 7px;
+}
+
+.container button {
+    border:0;
+    outline: none;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    color:#61568e;
+    background: #9E829C;
+    transition: 0.3s;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+
+#generatePassword:hover {
+    color:#291528;
+    background:#61568e;
+}

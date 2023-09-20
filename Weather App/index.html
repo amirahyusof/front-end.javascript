@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <title>Weather App</title>
+    </head>
+    <body>
+        <h1>Weather App</h1>
+        <section class="container">
+            <div class="city-search">
+                <input type="text" class="search-content" placeholder="Enter a city name" id="search-input">
+                    <button type="submit" class="search-btn" id="search-btn">
+                    <i class="fas fa-search"></i>
+                    </button>
+            </div>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="today-box">
+                <p class="day" id="current-day-time">Day<span class="time"> Time</span></p>
+                <h2 class="location" id="location-name">City Name</h2>
+            </div>
+            <div class="current-forecast">
+                <div class="display-weather">
+                    <div class="icon">
+                        <!--<img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">-->
+                        <h4 class="icon-name">--</h4>
+                    </div>
+                    <div class="weather">
+                        <h4 class="city">--</h4>
+                        <h4 class="temp">Temp: --°C</h4>
+                        <h4 class="wind">Wind: -- km/h</h4>
+                        <h4 class="humidity">Humidity: --%</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="six-day-forecast">
+                <!--<div class="forecast-day">
+                    <p class="day">--</p>
+                    <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="weather-icon">
+                    <p class="forecast-description">Lightly Rain</p>
+                    <p class="forescast-temp">33°C</p>
+                    
+                </div>
+                <div class="forecast-day">
+                    <p class="day">Thu</p>
+                    <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="weather-icon">
+                    <p class="forecast-description">Sunny</p>
+                    <p class="forescast-temp">29°C</p>
+
+                </div>
+                <div class="forecast-day">
+                    <p class="day">Fri</p>
+                    <img src="https://openweathermap.org/img/wn/09d@2x.png" alt="weather-icon">
+                    <p class="forecast-description">Shower Rain</p>
+                    <p class="forescast-temp">32°C</p>
+
+                </div>
+                <div class="forecast-day">
+                    <p class="day">Sat</p>
+                    <img src="https://openweathermap.org/img/wn/11d@2x.png" alt="weather-icon">
+                    <p class="forecast-description">Thunderstorm</p>
+                    <p class="forescast-temp">32°C</p>
+                    
+                </div>
+                <div class="forecast-day">
+                    <p class="day">Sun</p>
+                    <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
+                    <p class="forecast-description">Raining</p>
+                    <p class="forescast-temp">32°C</p>
+                    
+                </div>
+                <div class="forecast-day">
+                    <p class="day">Mon</p>
+                    <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="weather-icon">
+                    <p class="forecast-description">Cloudly Day</p>
+                    <p class="forescast-temp">32°C</p>
+                    
+                </div>-->
+            </div>
+        </section>
+        <script src="javascript.js"></script>
+    </body>
+</html>
